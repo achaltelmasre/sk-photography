@@ -1,12 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <>
-    <h1>Achal </h1>
-    </>
+import Home from './views/Home/Home'
+import Review from './views/Review/Review'
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/review",
+    element: <Review />,
+  },
   
-);
+]);
 
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<RouterProvider router={router} />)
