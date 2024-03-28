@@ -8,7 +8,7 @@
     z-index: 50;
     width: 100%;
      padding: -20px; 
- 
+    color: white;
   
 }
 .hover:hover{
@@ -17,12 +17,12 @@
   
 }
 .text-green{
-    color: #5aa33a;
+    color: navy;
     font-weight: bold;
     
  }
  .text-red{
-     color:#ff5a56;
+     color: navy;
      font-weight: bold;
  }
 .back-remo{
