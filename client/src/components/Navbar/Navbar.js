@@ -19,22 +19,14 @@ import { Link } from "react-router-dom";
           <Link class="nav-link active ms-5 hover " aria-current="page" to="/" >Home</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link active ms-5 hover" aria-current="page" to="/about" >About</Link>
+          <Link class="nav-link active ms-5 hover" aria-current="page" to="/about" >Photos</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link active ms-5 hover" aria-current="page" to="/order" >Order</Link>
-        </li>
-        <li class="nav-item">
-          <Link class="nav-link active ms-5 hover" aria-current="page" to="/review" >Review</Link>
+          <Link class="nav-link active ms-5 hover" aria-current="page" to="/order" >Reviews</Link>
         </li>
         <li class="nav-item">
           <Link class="nav-link active ms-5 hover" aria-current="page" to="/contact" >Contact</Link>
         </li>
-        <li class="nav-item">
-          <Link class="nav-link active ms-5 hover" aria-current="page" to="/signup" >SignUp</Link>
-        </li>
-       
-       
       </ul>
     </div>
   </div>

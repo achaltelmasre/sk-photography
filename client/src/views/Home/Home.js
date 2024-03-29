@@ -5,8 +5,12 @@ function Home(){
    
     return(
         <>
-        <Navbar/>
-          <h1>Home</h1>
+        <div>
+          <Navbar/>
+           <h1> Home</h1>
+           
+        </div>
+       
 
         </>
     );
