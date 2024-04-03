@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import logo from "./img/logo.jpg"
+import logo from "./img/logo.png"
 import { Link } from "react-router-dom";
 
 
@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
   return (
     <nav class="navbar navbar-expand-lg fs-4 nav1  ">
   <div class="container-fluid ">
-    <a class="navbar-brand" href="#"> <img src={logo} alt="logo" height="80px"/> <span className="fS-4 text-green">SK</span> <span className="fs-4 text-red"> Photography</span></a>
+    <a class="navbar-brand ms-2" href="#"> <img src={logo} alt="logo" height="60px"/> <span className="fs-4 text-red  mt-1"> Photography</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
