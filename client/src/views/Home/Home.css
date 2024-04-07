@@ -1,4 +1,24 @@
-.slide{
-    height: 500px;
-   align-items: center;
+.back-img{
+    background-image: url(./background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.head-div{
+    position: absolute;
+    right: 150px;
+    top: 180px;
+    
+
+}
+.head-name{
+    font-style: italic;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#ecc503, #ce0505);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
 }

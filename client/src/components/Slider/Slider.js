@@ -11,32 +11,33 @@ const Slider = () =>
 {
     return(
         <>
-        <div className="slider">
-          <div className='design-project slider-img slider-img1 h-50 '>
+       
+          <div className='design-project slider-img slider-img1 h-50% '>
             
             <Carousel interval={6000} >
                 <Carousel.Item>
-                    <img className='  slider1' src={img1} alt='First slide' />
+                    <img className=' slider1 ' src={img1} alt='First slide' />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className=' slider1' src={img6} alt='Second slide' />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className=' slider1 ' src={img2} alt='Third slide' />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className='slider1' src={img3} alt='Third slide' />
+                    <img className='slider1' src={img3} alt='Fourth slide' />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className=' slider1' src={img4} alt='Third slide' />
+                    <img className=' slider1' src={img4} alt='Fifth slide' />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className='slider1' src={img5} alt='Third slide' />
+                    <img className='slider1' src={img5} alt='Sixth slide' />
                 </Carousel.Item>
-                <Carousel.Item>
-                    <img className=' slider1' src={img6} alt='Third slide' />
-                </Carousel.Item>
+               
 
             </Carousel>
         </div>
-        </div>
+      
         </>
     )
 };
