@@ -19,6 +19,10 @@
     background: -webkit-linear-gradient(#ecc503, #ce0505);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-
+}
+.head-link{
+    margin-left: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
 }
