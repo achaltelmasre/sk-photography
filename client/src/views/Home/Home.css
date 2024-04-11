@@ -23,6 +23,6 @@
 .head-link{
     margin-left: 100px;
     border-radius: 50px;
-    cursor: pointer;
+    cursor: pointer !important;
     text-decoration: none;
 }
