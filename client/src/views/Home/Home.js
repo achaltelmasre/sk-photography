@@ -14,10 +14,13 @@ function Home() {
         <div className="back-img">
           
           <div className="head-div ">
+            <h1 className="mb-4">Welcome....</h1>
           <h1 className="display-4 head-name" >SK PHOTOGRAPHY</h1>
           <p className="text-light ps-3">I take photographs with creativity, concept and passion</p>
-          {/* <a  to='/review'  className="bg-light text-dark ps-4 pe-4 p-2 head-link" >See My Portfolio</a> */}
-
+          <p className="text-light ps-3">I'm  freelance photographer specializing in people & portrait photography, based in Landon. 
+            Photography is my passion and i love to turn ideas into beautiful things.
+            Looking for a caring , fun , passionate and creative photographer? It's me!
+          </p>
           </div>
           
         <div className="slide">
