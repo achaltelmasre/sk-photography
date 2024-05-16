@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Slider from "../../components/Slider/Slider";
 import Footer from "../../components/Footer/Footer";
 import "./Home.css";
+import Menu from "../../components/Menu/Menu";
 // import { Link } from "react-router-dom";
 
 function Home() {
@@ -27,11 +28,12 @@ function Home() {
         <Slider />
         </div>
       
+       
         </div>
-
-        <Footer/>
        
       </div>
+      <Menu/>
+      <Footer/>
     </>
   );
 }
