@@ -4,8 +4,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-import Home from './views/Home/Home'
-import Review from './views/Review/Review'
+import Home from './views/Home/Home';
+import Review from './views/Review/Review';
+import Contact from './views/Contact/Contact';
+import About from './views/About/About.js';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +19,15 @@ const router = createBrowserRouter([
     path: "/review",
     element: <Review />,
   },
+  {
+    path:"/about",
+    element: <About />
+  },
+  {
+    path:"/contact",
+    element: <Contact />
+  }
+
   
   
 ]);
