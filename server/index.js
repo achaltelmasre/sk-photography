@@ -1,6 +1,8 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import { getApiHealth } from './controller/health';
+import { getApiReview, postApiReview } from './controller/review';
 dotenv.config();
 
 const app = express();
@@ -20,6 +22,14 @@ const connectDB = async () => {
   
 };
 connectDB();
+
+app.get('/api/health', getApiHealth);
+
+app.post('/api/addReview', postApiReview);
+
+app.get('/api/fetchReview', getApiReview);
+
+app.put('/updateReview', putApiReview);
 
 
 const PORT = process.env.PORT || 5000;
