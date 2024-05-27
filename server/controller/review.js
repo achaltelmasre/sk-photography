@@ -5,12 +5,15 @@ import { responder } from "../util.js";
 const postApiReview = async (req, res) => {
     const {
         name,
-        text
+        text,
+        reviews
+
     } = req.body
 
     const review = new Review ({
         name:name,
-        text:text
+        text:text,
+        reviews:reviews
     });
 
     try{
@@ -47,11 +50,12 @@ const getApiReview = async (res, res) =>{
 const putApiReview = async (req, res) => {
     const {id} = req.params;
 
-    const {name, text} = req.body;
+    const {name, text, review} = req.body;
     
     await Review.updateOne({_id: id}, {$set: {
         name: name,
-        text:text
+        text:text,
+        review:review
     }});
 
     const updateReview = await Review.findById(id);
@@ -64,4 +68,5 @@ const putApiReview = async (req, res) => {
     });
  }
 
+ export { postApiReview, getApiReview, putApiReview};
 

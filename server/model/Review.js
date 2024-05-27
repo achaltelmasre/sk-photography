@@ -7,9 +7,13 @@ const CommentSchema = Schema({
     },
     text: {
         type: String,
-        default:"Very good work....."
+        require:true
+        
+    },
+    reviews: {
+       type: String,
+       default:"Very good work....."
     }
-
 },{
     timestamp: true,
 })
