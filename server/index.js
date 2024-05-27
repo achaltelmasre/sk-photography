@@ -2,7 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import { getApiHealth } from './controller/health';
-import { getApiReview, postApiReview } from './controller/review';
+import { getApiReview, postApiReview,putApiReview } from './controller/review';
 dotenv.config();
 
 const app = express();
