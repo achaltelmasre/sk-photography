@@ -32,7 +32,7 @@ const postApiReview = async (req, res) => {
     }
 }
 
-//get comment
+//get review 
 const getApiReview = async (res, res) =>{
     const allReview = await Review.find();
 
@@ -43,4 +43,25 @@ const getApiReview = async (res, res) =>{
     })
 }
 
-//put
+//put review
+const putApiReview = async (req, res) => {
+    const {id} = req.params;
+
+    const {name, text} = req.body;
+    
+    await Review.updateOne({_id: id}, {$set: {
+        name: name,
+        text:text
+    }});
+
+    const updateReview = await Review.findById(id);
+
+    return responder({
+        res,
+        success:true,
+        data: updateReview,
+        message: "Review update successfully"
+    });
+ }
+
+
