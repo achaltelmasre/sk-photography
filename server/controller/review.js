@@ -1,26 +1,26 @@
-import Comment from "../model/comment";
-import { responder } from "./../util.js";
+import Review from "../model/Review.js";
+import { responder } from "../util.js";
 
-//add comment
-const postApiComment = async (req, res) => {
+//add  review
+const postApiReview = async (req, res) => {
     const {
         name,
         text
     } = req.body
 
-    const comment = new Comment ({
+    const review = new Review ({
         name:name,
         text:text
     });
 
     try{
-        const savedComment = await comment.save();
+        const savedReview = await review.save();
 
         return responder({
             res,
             success:true,
-            data: savedComment,
-            message: "comment created successfully "
+            data: savedReview,
+            message: "review created successfully "
         })
     }
     catch(e){
@@ -33,8 +33,8 @@ const postApiComment = async (req, res) => {
 }
 
 //get comment
-const getApiComment = async (res, res) =>{
-    const allComment = await Comment.find();
+const getApiReview = async (res, res) =>{
+    const allReview = await Review.find();
 
     return responder({
         res,
