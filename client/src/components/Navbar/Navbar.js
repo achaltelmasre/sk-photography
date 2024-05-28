@@ -22,7 +22,7 @@ import { Link } from "react-router-dom";
           <Link class="nav-link active ms-5 hover text-light" aria-current="page" to="/about" >Photos</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link active ms-5 hover text-light" aria-current="page" to="/order" >Reviews</Link>
+          <Link class="nav-link active ms-5 hover text-light" aria-current="page" to="/review" >Reviews</Link>
         </li>
         <li class="nav-item">
           <Link class="nav-link active ms-5 hover text-light" aria-current="page" to="/contact" >Contact</Link>
