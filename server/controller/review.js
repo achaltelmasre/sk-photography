@@ -36,7 +36,7 @@ const postApiReview = async (req, res) => {
 }
 
 //get review 
-const getApiReview = async (res, res) =>{
+const getApiReview = async (req,res) =>{
     const allReview = await Review.find();
 
     return responder({

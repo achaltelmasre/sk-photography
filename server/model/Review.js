@@ -1,6 +1,6 @@
 import { Schema, model } from 'mongoose';
 
-const CommentSchema = Schema({
+const ReviewSchema = Schema({
     name: {
         type: String,
         require:true
@@ -18,6 +18,6 @@ const CommentSchema = Schema({
     timestamp: true,
 })
 
-const comment = model("comment", CommentSchema);
+const Review = model("review", ReviewSchema);
 
-export default Comment;
+export default Review;

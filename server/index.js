@@ -1,8 +1,8 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import { getApiHealth } from './controller/health';
-import { getApiReview, postApiReview,putApiReview } from './controller/review';
+import { getApiHealth } from './controller/health.js';
+import { getApiReview, postApiReview,putApiReview } from './controller/review.js';
 dotenv.config();
 
 const app = express();
