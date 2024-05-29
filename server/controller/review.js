@@ -42,6 +42,7 @@ const getApiReview = async (req,res) =>{
     return responder({
         res,
         success:true,
+        data:allReview,
         message: "Successfully fetched all comment"
     })
 }

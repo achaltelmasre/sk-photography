@@ -29,7 +29,7 @@ app.post('/api/addReview', postApiReview);
 
 app.get('/api/fetchReview', getApiReview);
 
-app.put('/updateReview', putApiReview);
+app.put('/api/updateReview/:id', putApiReview);
 
 
 const PORT = process.env.PORT || 5000;
