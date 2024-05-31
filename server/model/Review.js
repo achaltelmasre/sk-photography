@@ -15,7 +15,7 @@ const ReviewSchema = Schema({
        default:"Very good work....."
     }
 },{
-    timestamp: true,
+    timestamps: true,
 })
 
 const Review = model("review", ReviewSchema);
