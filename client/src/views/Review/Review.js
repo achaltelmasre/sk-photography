@@ -8,6 +8,16 @@ function Review() {
   const [reviews, setReviews] = useState([]);
   const [totalReviews, setTotalReviews] = useState(0);
 
+  const CATEGORY_EMOJI_MAP = {
+    "1": "⭐",
+    "2": "⭐⭐",
+    "3": "⭐⭐⭐",
+    "4": "⭐⭐⭐⭐",
+    "5": "⭐⭐⭐⭐⭐",
+    
+  }
+
+
   const loadReview = async () => {
     try {
       const response = await axios.get('/api/fetchReview');
@@ -35,24 +45,35 @@ function Review() {
       <div>
         <Navbar />
          
-         <div>
+         <div className='review-page'>
         <h1 className='text-center p-3'>Clients Reviews</h1>
+  
         <h4>Total Reviews: {totalReviews}</h4>
+
+        <div className='review-container'>
         {reviews.map((review, index) => {
           const { name, text, reviews, createdAt } = review;
           const date = new Date(createdAt).toLocaleDateString();
-
+             
           return (
-            <div className='review-card' key={index}>
+            <div  >
+           
+            <div className=' review-card ' key={index}>
+        
               <h4>{name}</h4>
-              <h3>{text}</h3>
+              <h2 className='star'>{CATEGORY_EMOJI_MAP[text]}</h2>
               <p>{reviews}</p>
-              <span>{date}</span>
-            </div>
+              <span className='date'>{date}</span>
+              </div>
+              </div>
+           
+          
           );
         })}
+
      </div>
-     
+     </div>
+
         <Footer />
       </div>
     </>

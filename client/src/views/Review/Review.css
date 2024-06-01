@@ -1,0 +1,39 @@
+.review-page{
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    /* position: relative; */
+}
+.review-card{
+    height:auto;
+    width: 800px;
+    background-color:white;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.7;
+    position: relative;
+  
+}
+
+.review-container{
+   
+    height: 600px;
+    overflow-y: scroll;
+    
+    
+}
+.review-container::-webkit-scrollbar {
+    display: none;
+}
+.date{
+    position: absolute;
+    top: 25px;
+    left: 250px;
+}
+.star{
+   background-color: white;
+}
