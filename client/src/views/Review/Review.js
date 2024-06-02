@@ -50,7 +50,7 @@ function Review() {
   
         <h4>Total Reviews: {totalReviews}</h4>
 
-        <div className='review-container'>
+        <div className='review-container' >
         {reviews.map((review, index) => {
           const { name, text, reviews, createdAt } = review;
           const date = new Date(createdAt).toLocaleDateString();
