@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Navbar from '../../components/Navbar/Navbar.js'
 import Footer from '../../components/Footer/Footer.js';
+import AddReview from '../../components/AddReview/AddReview.js';
 import './Review.css';
 
 function Review() {
@@ -49,7 +50,8 @@ function Review() {
         <h1 className='text-center p-3'>Clients Reviews</h1>
   
         <h4>Total Reviews: {totalReviews}</h4>
-
+        <AddReview/>
+        
         <div className='review-container' >
         {reviews.map((review, index) => {
           const { name, text, reviews, createdAt } = review;
