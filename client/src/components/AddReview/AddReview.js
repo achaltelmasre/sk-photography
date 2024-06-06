@@ -31,11 +31,11 @@ function AddReview() {
       <div>
         <button
           type="button"
-          class="btn btn-primary"
+          class="btn btn-danger"
           data-bs-toggle="modal"
           data-bs-target="#staticBackdrop"
         >
-           Feedback
+           Give your Feedback 👈
         </button>
 
         <div
