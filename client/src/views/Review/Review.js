@@ -45,12 +45,19 @@ function Review() {
     <>
       <div>
         <Navbar />
+
+        <div className='addreview-btn'>
+          Every picture tells a story, let me share mine with you,<br/>
+          Everyone are share your ideas, let you  share <br/> valuable feedback on my work..... 👇!
+        <AddReview/>
+        </div>
          
          <div className='review-page'>
-        <h1 className='text-center p-3'>Clients Reviews</h1>
+         <h3 className=' p-3'>Clients Happy Reviews........😊</h3>
   
-        <h4>Total Reviews: {totalReviews}</h4>
-        <AddReview/>
+        <h2 className='ps-5 text-info link-underline-dark'>Total Reviews: {totalReviews}</h2>
+       
+       
         
         <div className='review-container' >
         {reviews.map((review, index) => {
@@ -62,10 +69,10 @@ function Review() {
            
             <div className=' review-card ' key={index}>
         
-              <h4>{name}</h4>
+              <span className='h5 pe-2 text-denger'>{name} </span>{date}
               <h2 className='star'>{CATEGORY_EMOJI_MAP[text]}</h2>
               <p>{reviews}</p>
-              <span className='date'>{date}</span>
+              
               </div>
               </div>
            
