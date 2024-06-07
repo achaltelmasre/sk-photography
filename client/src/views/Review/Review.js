@@ -65,7 +65,7 @@ function Review() {
         {reviews.map((review, index) => {
           const { name, text, reviews, createdAt } = review;
           const date = new Date(createdAt).toDateString();
-        
+          
              
           return (
             <div  >
