@@ -46,13 +46,15 @@ function Review() {
       <div>
         <Navbar />
 
-        <div className='addreview-btn'>
+       
+         
+         <div className='review-page'>
+
+         <div className='addreview-btn'>
           Every picture tells a story, let me share mine with you,<br/>
           Everyone are share your ideas, let you  share <br/> valuable feedback on my work..... 👇!
         <AddReview/>
         </div>
-         
-         <div className='review-page'>
          <h3 className=' p-3'>Clients Happy Reviews........😊</h3>
   
         <h2 className='ps-5 text-info link-underline-dark'>Total Reviews: {totalReviews}</h2>
@@ -62,7 +64,8 @@ function Review() {
         <div className='review-container' >
         {reviews.map((review, index) => {
           const { name, text, reviews, createdAt } = review;
-          const date = new Date(createdAt).toLocaleDateString();
+          const date = new Date(createdAt).toDateString();
+        
              
           return (
             <div  >
@@ -79,10 +82,15 @@ function Review() {
           
           );
         })}
-
+        
      </div>
      </div>
-
+     <div className='review-text '>
+     We work hard to be the best at what we do for you. <br/>And when hard workpays off, 
+        we celebrate ! <br/>Thank you to everyone that has taken <br/> the time to tell us how we did.<br/>
+        We appreciate you .
+     </div>
+     
         <Footer />
       </div>
     </>
