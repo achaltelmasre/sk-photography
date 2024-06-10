@@ -3,7 +3,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
 }
 
 .head-div{
@@ -12,8 +11,6 @@
     top: 100px;
    height: 200px;
     width: 550px;
-    
-
 }
 .head-name{
     font-style: italic;
@@ -27,4 +24,43 @@
     border-radius: 50px;
     cursor: pointer !important;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .back-img{
+       background-image: none;
+    }
+    .slide{
+        position: relative;
+    }
+    .head-div{
+        position: absolute;
+        top: 300px;
+       left: 20px;
+       height: auto;
+       width: 320px;
+        background-color: black;
+        padding: 20px;
+        opacity: 0.7;
+        margin-bottom: 50px;
+        box-shadow: 0 0 20px 8px white ;
+
+    }
+    .welcome-name{
+        color: white;
+        font-size: 20px;
+    }
+    .head-name{
+        font-size: 28px;
+        /* text-shadow: 0 0 55px 20px  white; */
+        text-align: center;
+    }
+    .home-text1{
+        font-size: 14px;
+    }
+    .home-text2{
+       font-size: 13px;
+    }
 }
