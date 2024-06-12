@@ -31,9 +31,11 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
-      {/* <Menu /> */}
+
+         {/* <Menu /> */}
       <Footer />
+      </div>
+     
     </>
   );
 }

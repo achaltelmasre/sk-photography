@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 { 
   return (
-    <nav class="navbar navbar-expand-lg fs-4 nav1  ">
+    <nav class="navbar navbar-expand-lg fs-4 nav1 sticky-top ">
   <div class="container-fluid text-light">
     <a class="navbar-brand ms-2 text-light" href="#"> <img src={logo} alt="logo" height="60px"/> <span className="fs-4 text-red  mt-1"> Photography</span></a>
     <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

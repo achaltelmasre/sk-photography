@@ -12,7 +12,7 @@ const Slider = () =>
     return(
         <>
        
-          <div className='design-project slider-img slider-img1 h-50% '>
+          <div className='  '>
             
             <Carousel interval={6000} >
                 <Carousel.Item>
@@ -32,8 +32,7 @@ const Slider = () =>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className='slider1' src={img5} alt='Sixth slide' />
-                </Carousel.Item>
-               
+                </Carousel.Item> 
 
             </Carousel>
         </div>
