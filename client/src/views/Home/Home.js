@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <div>
-        <Navbar />
+        <Navbar /> 
 
         <div className="back-img">
           <div className="slide">
@@ -32,10 +32,10 @@ function Home() {
           </div>
         </div>
 
-         {/* <Menu /> */}
-      <Footer />
+          {/* <Menu /> */}
+       <Footer /> 
       </div>
-     
+      
     </>
   );
 }

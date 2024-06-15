@@ -1,38 +1,40 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import logo from "./../Navbar/img/logo.png";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 
 const Footer = () =>
 { 
   
   return (
     <>
-              
-<footer class="  text-lg-s bg-dark text-light  ">
+
+ <footer class="  text-lg-s bg-dark text-light text-center foot ">
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     
-    <div class="me-5 d-none d-sm-block">
+    <div class="  top-text">
       <span>Get connected with  @Shubham Khamle</span>
     </div>
   
-    <div>
+    <div class="icons">
       <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
+      <i class="bi bi-facebook"></i>
       </a>
       <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
+      <i class="bi bi-twitter"></i>
       </a>
       <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
+      <i class="bi bi-google"></i>
       </a>
       <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
+      <i class="bi bi-instagram"></i>
       </a>
       <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
+      <i class="bi bi-envelope"></i>
       </a>
       <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
+      <i class="bi bi-telephone"></i>
       </a>
     </div>
 
@@ -75,7 +77,7 @@ const Footer = () =>
         </div>
   
 
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 ms-5">
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 ">
          
           <h6 class="text-uppercase fw-bold mb-4">
             Useful links
@@ -114,13 +116,14 @@ const Footer = () =>
       
     </div>
   </section>
-  {/* style="background-color: rgba(0, 0, 0, 0.05);" */}
+  
+
   <div class="text-center p-4" >
    made with ❤️
-    <a class="text-reset fw-bold " href="https://mdbootstrap.com/">love❤️</a>
+    <a class="text-reset fw-bold " href="https://mdbootstrap.com/">achaltelmasre@gmail.com</a>
   </div>
- 
-</footer>
+  
+</footer> 
 
     </>
   );
