@@ -1,5 +1,5 @@
 .back-img{
-    background-image: url(./background-img.jpg);
+    background-image: url(./img/background-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -24,6 +24,13 @@
     border-radius: 50px;
     cursor: pointer !important;
     text-decoration: none;
+}
+
+.booking{
+    background-image: url(./img/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
 }
 
 @media only screen and (max-width: 600px) {

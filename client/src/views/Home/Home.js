@@ -2,14 +2,15 @@ import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Slider from "../../components/Slider/Slider";
 import Footer from "../../components/Footer/Footer";
+import Booking from "../../components/Booking/Booking";
 import "./Home.css";
-import Menu from "../../components/Menu/Menu";
+// import Menu from "../../components/Menu/Menu";
 // import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <>
-      <div>
+      <div >
         <Navbar /> 
 
         <div className="back-img">
@@ -31,6 +32,10 @@ function Home() {
             </div>
           </div>
         </div>
+
+          <div className="booking">
+            <Booking/>
+          </div>
 
           {/* <Menu /> */}
        <Footer /> 
