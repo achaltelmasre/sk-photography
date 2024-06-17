@@ -4,13 +4,14 @@ import { Link } from "react-router-dom";
 function Booking() {
   return (
     <>
-    <div>
-        <h1 className="text-center p-2 pt-5">Booking Now Our Events </h1>
+    <div className="booking">
+      <div className="content">
+      <h1 className="text-center p-2 pt-5 booking-text1 ">Booking Now Our Events </h1>
         <p className="p-2 text-center text-danger h4"> "A photographs is an opportunity 
             <br/> to keep a moment forever"</p>
       <div class="container ">
         <div class="row">
-            <p className="fw-5 text-center booking-text">It just demo offer, any information for booking purpose just contact <b> @Shubhamkhamle </b>
+            <p className="fw-5 text-center booking-text">It just demo offer, If any information for booking purpose just contact <b> @Shubhamkhamle </b>
             <Link to="/contact"><button type="button"  class=" btn btn-danger m-2">Click Here 👇</button></Link>
             </p>
           <div class="col-md-4 ">
@@ -75,6 +76,10 @@ function Booking() {
           </div>
         </div>
       </div>
+      </div>
+       
+       
+      
       </div>
     </>
   );

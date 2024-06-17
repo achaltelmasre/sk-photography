@@ -7,4 +7,16 @@
     background-color: white;
     opacity: 0.7;
     box-shadow: 0 0 10px 5px rgb(232, 136, 136);
+    /* border-radius: 10px; */
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .content{
+        margin-top: 250px;
+    }
+    .booking-text1{
+        color: white;
+    }
+        
 }

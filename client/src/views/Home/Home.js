@@ -33,7 +33,7 @@ function Home() {
           </div>
         </div>
 
-          <div className="booking">
+          <div className=" ">
             <Booking/>
           </div>
 
