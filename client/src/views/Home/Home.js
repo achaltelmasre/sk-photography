@@ -4,6 +4,7 @@ import Slider from "../../components/Slider/Slider";
 import Footer from "../../components/Footer/Footer";
 import Booking from "../../components/Booking/Booking";
 import "./Home.css";
+import ReviewSlider from "../../components/ReviewSlider/ReviewSlider";
 // import Menu from "../../components/Menu/Menu";
 // import { Link } from "react-router-dom";
 
@@ -37,7 +38,7 @@ function Home() {
             <Booking/>
           </div>
 
-          {/* <Menu /> */}
+          <ReviewSlider/>
        <Footer /> 
       </div>
       

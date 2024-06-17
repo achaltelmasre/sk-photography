@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Carousel } from 'react-bootstrap';
-import './Review.css';
+import './ReviewSlider.css';
 
 function ReviewSlider() {
   const [reviews, setReviews] = useState([]);
@@ -30,19 +30,18 @@ function ReviewSlider() {
 
   return (
     <div>
-      <div className='review-slider'>
-        <h3 className='p-3'>Clients Reviews........😊</h3>
-        <div className='review-container'>
+      <div className='review-slider '>
+        <h3 className='p-3'>Clients Reviews </h3>
+        <div className='review'>
           <Carousel>
             {reviews.map((review, index) => {
-              const { name, text, reviews, createdAt } = review;
-              const date = new Date(createdAt).toDateString();
+              const { name, text, reviews } = review;
               return (
                 <Carousel.Item key={index}>
-                  <div className='review'>
-                    <span className='h5 pe-2 text-danger'>{name} </span>{date}
+                  <div className='reviewSlider-content'>
+                    <h1 className=' pe-2 text-danger'>{name} </h1>
+                    <p className='sliderreview-text'>{reviews}</p>
                     <h2 className='star'>{CATEGORY_EMOJI_MAP[text]}</h2>
-                    <p>{reviews}</p>
                   </div>
                 </Carousel.Item>
               );
