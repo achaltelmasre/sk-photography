@@ -2,7 +2,7 @@
     background-image: url(./img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+
     color: white;
     position: relative;
 }
@@ -23,8 +23,7 @@
    
     height: 600px;
     overflow-y: scroll;
-    
-    
+       
 }
 .review-container::-webkit-scrollbar {
     display: none;
@@ -53,4 +52,43 @@
    text-align: center;
    font-style:italic;
    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .addreview-btn{
+    
+        font-size: 13px;
+        margin-bottom: 200px;
+        margin-top: -20px;
+  
+    }
+    .review-container{
+        margin-top: 80px;
+        height: 700px;
+        overflow-y: scroll;
+    }
+    .review-card{
+       
+        font-size: 15px;
+        width: 330px;
+        padding: 7px;
+    }
+
+    .client-review{
+        font-size: 11px;
+    }
+
+    .addreview{
+       font-size: 12px;
+    }
+    .totalreview{
+        font-size: 20px;
+        margin-top: -12px;
+    }
+    .review-text{
+        font-size: 11px;
+        margin-top: 20px;
+    }
 }

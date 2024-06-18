@@ -31,7 +31,7 @@ function AddReview() {
       <div>
         <button
           type="button"
-          class="btn btn-danger"
+          class="btn btn-danger addreview"
           data-bs-toggle="modal"
           data-bs-target="#staticBackdrop"
         >

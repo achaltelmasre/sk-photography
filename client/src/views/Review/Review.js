@@ -57,7 +57,7 @@ function Review() {
         </div>
          <h3 className=' p-3'>Clients Happy Reviews........😊</h3>
   
-        <h2 className='ps-5 text-info link-underline-dark'>Total Reviews: {totalReviews}</h2>
+        <h2 className='ps-5 text-info link-underline-dark totalreview'>Total Reviews: {totalReviews}</h2>
        
        
         
@@ -74,7 +74,7 @@ function Review() {
         
               <span className='h5 pe-2 text-denger'>{name} </span>{date}
               <h2 className='star'>{CATEGORY_EMOJI_MAP[text]}</h2>
-              <p>{reviews}</p>
+              <p  className='client-review'>{reviews}</p>
               
               </div>
               </div>
@@ -84,12 +84,17 @@ function Review() {
         })}
         
      </div>
-     </div>
+
+<br/><br/><br/><br/><br/>
      <div className='review-text '>
      We work hard to be the best at what we do for you. <br/>And when hard workpays off, 
         we celebrate ! <br/>Thank you to everyone that has taken <br/> the time to tell us how we did.<br/>
         We appreciate you .
      </div>
+   
+     </div>
+    
+     
      
         <Footer />
       </div>
