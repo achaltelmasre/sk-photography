@@ -1,11 +1,18 @@
-import "./Contact.css"
+import Navbar from './../../components/Navbar/Navbar.js'
+import Footer from './../../components/Footer/Footer.js'
 
+import "./Contact.css"
 
 function Contact () {
 
     return(
         <>
-        contact
+           <div>
+             <Navbar/>
+
+             <Footer/>
+
+           </div>
         </>
     )
 }
