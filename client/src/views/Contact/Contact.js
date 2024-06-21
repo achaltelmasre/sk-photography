@@ -30,8 +30,41 @@ function Contact () {
                     <i class="bi bi-instagram"></i>
                     <i class="bi bi-twitter"></i>
 
+                </div>
 
+                <div>
+                   <h2>Enquiry form</h2>
+                   <p>Will be GLAD to be a part of your SPECIAL DAY</p>
 
+                   <label>Your Name : </label>
+                   <input placeholder='Enter your name '></input>
+                    <br/>                
+                   <lable>Phone No. : </lable>
+                   <input placeholder='Enter your number'></input>
+
+                   <label>Email : </label>
+                   <input placeholder='Enter your email'></input>
+                   <br/>
+                   <lable>Date : </lable>
+                   <input type='date'></input>
+
+                   <lable>Events : </lable>
+                   <input type='text' placeholder='Enter ypur events'></input>
+                   <br/>
+                   <lable>City/venu</lable>
+                   <input type='text' placeholder='exter your city and venu'></input>
+                   <br />
+                   <lable>Number of Guests Expected </lable>
+                   <input type='text'></input>
+                   <br/>
+                   <label>Any special requirements or anything you want to mention?
+                   </label>
+                   <input type='text' placeholder='enter your requirements '></input>
+                   <br />
+                   <lable>How Did You Find Us? </lable>
+                   <input type='text'></input>
+                  
+                   <button type="button" class="btn btn-secondary">Secondary</button>
 
                 </div>
 
