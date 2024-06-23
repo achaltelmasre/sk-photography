@@ -55,4 +55,67 @@ outline: none;
 .flex-width{
     width: 350px;
 }
+.contact-btn{
+    font-size: 25px;
+    margin: 0 auto;
+    padding: 5px 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(124, 127, 129);
+    color: white;
+    border: none;
+}
+.contact-btn:hover{
+    box-shadow: 0 0 8px 2px black;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .contact-container{
+        height: auto;
+        width: 300px;
+        margin: 0 auto;
+       
+    }
+    .font{
+        /* font-size: 10px; */
+    }
+    .icon{
+        font-size: 22px;
+        margin: 10px;
+        padding: 10px 15px;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    input{
+       width: 200px;
+    }
+
+    .width{
+        width: 300px;
+    }
+    .flex-width{
+        width: 300px;
+    }
+    .conatact-text{
+        font-size: 14px;
+    }
+    .label{
+        font-size: 15px;
+    }
+
+   
+}
+
 

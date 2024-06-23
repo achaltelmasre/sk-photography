@@ -10,7 +10,7 @@ function Contact () {
            <div>
              <Navbar/>
                 
-                <div className='contact-container text-center'>
+                <div className='contact-container text-center font'>
                 <h2 className='contact-name'>Contact Us</h2>
 
                   <h4>Bhandara , 441904 </h4>
@@ -34,20 +34,20 @@ function Contact () {
 
                 <div className='contact-container '>
                    <h2 className='enquiry-name'>Enquiry form</h2>
-                   <p className='text-center'>Will be GLAD to be a part of your SPECIAL DAY</p>
+                   <p className='text-center conatact-text'>Will be GLAD to be a part of your SPECIAL DAY</p>
 
                   <div>
                   <label>Your Name : </label>
                   <input placeholder='Enter your name ' className='width'></input>
                   </div>
                   
-                   <div className='d-flex flex-row '>
+                   <div className='flex'>
                    <div  className='me-5'>
                     <label>Phone No. :</label>
                     <input placeholder='Enter your number'className='flex-width' ></input>
                      </div>               
                   
-                  <div className='ms-5'>
+                  <div className=' '>
                   <label>Email : </label>
                   <input placeholder='Enter your email' className='flex-width'></input>
                   </div>
@@ -55,13 +55,13 @@ function Contact () {
 
                     
                   
-               <div className='d-flex flex-row '>
+               <div className='flex'>
                <div className='  me-5'>
                   <label>Date :</label>
                    <input type='date'className='flex-width' ></input>
                   </div>
                    
-                   <div className=' ms-5'>
+                   <div className=''>
                    <label>Events :</label>
                    <input type='text' placeholder='Enter ypur events' className='flex-width'></input>
                    </div>
@@ -89,7 +89,7 @@ function Contact () {
       </div>
                    
                    
-                   <button type="button" class="btn btn-secondary">Secondary</button>
+                   <button type="button" class="contact-btn mt-5 mb-5"> Send</button>
 
                 </div>
 
