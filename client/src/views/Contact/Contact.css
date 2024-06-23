@@ -84,8 +84,11 @@ outline: none;
         margin: 0 auto;
        
     }
+    .font1{
+        font-size: 14px;
+    }
     .font{
-        /* font-size: 10px; */
+        font-size: 18px;
     }
     .icon{
         font-size: 22px;
@@ -111,8 +114,8 @@ outline: none;
     .conatact-text{
         font-size: 14px;
     }
-    .label{
-        font-size: 15px;
+    label{
+        font-size: 17px;
     }
 
    
