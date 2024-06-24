@@ -16,8 +16,6 @@
 .icon{
    
     background-color: rgb(147, 148, 150);
-    /* height:50px;
-    width: 50px; */
     border-radius: 50%;
     padding: 5px 12px;
     margin: 15px;
@@ -34,7 +32,7 @@
 }
 
 label{
-   /* font-weight: bold; */
+
    font-size: 20px;
    padding: 15pxpx;
 }
@@ -45,7 +43,7 @@ input{
     font-size: 18px;
     padding: 10px;
     margin: 5px;
-    /* width: 500px; */
+
     border-bottom: 1px rgb(120, 117, 117) solid;
 outline: none;
 }

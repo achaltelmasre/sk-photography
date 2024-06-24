@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
   return (
     <nav class="navbar navbar-expand-lg fs-4 nav1 sticky-top ">
   <div class="container-fluid text-light">
-    <a class="navbar-brand ms-2 text-light" href="#"> <img src={logo} alt="logo" height="60px"/> <span className="fs-4 text-red  mt-1"> Photography</span></a>
+    <a class="navbar-brand ms-2 text-light" href="#"> <img src={logo} alt="logo"  className="logo"/> <span className=" text-red  mt-1"> Photography</span></a>
     <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon text-light"></span>
     </button>
@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
           <Link class="nav-link active ms-5 hover text-light " aria-current="page" to="/" >Home</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link active ms-5 hover text-light" aria-current="page" to="/about" >Photos</Link>
+          <Link class="nav-link active ms-5 hover text-light" aria-current="page" to="/about" >About</Link>
         </li>
         <li class="nav-item">
           <Link class="nav-link active ms-5 hover text-light" aria-current="page" to="/review" >Reviews</Link>

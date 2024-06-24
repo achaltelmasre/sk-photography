@@ -7,9 +7,10 @@
     position: sticky;
     /* z-index: 50; */
     width: 100%;
-     padding: -20px; 
-     background-color:black ;
+     padding: 10px ; 
+     background-color:#212529 ;
     color: white  !important;
+    font-size: 28px !important;
   
 }
 .hover:hover{
@@ -28,8 +29,32 @@
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
      font-weight: bold;
+     font-size: 35px;
+ }
+ .logo{
+    height: 70px;
  }
 /* .back-remo{
     margin-left: 300px;
 } */
+
+
+
+@media only screen and (max-width: 600px) {
+    .nav1{
+        font-size: 20px !important;
+    }
+    .logo{
+        height: 50px;
+    }
+ .text-red{
+    font-size: 25px;
+ }
+    .hover:hover{
+        border-bottom: 3px solid red !important;
+        color: rgb(244, 94, 13) !important;
+      text-shadow: 10px white !important;
+    }
+}
+
 
