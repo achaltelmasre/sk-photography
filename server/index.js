@@ -33,7 +33,7 @@ app.get('/api/fetchReview', getApiReview);
 app.put('/api/updateReview/:id', putApiReview);
 
 //add events api
-app.post('/api/events', postApiEvents);
+app.post('/api/event', postApiEvents);
 
 
 const PORT = process.env.PORT || 5000;
