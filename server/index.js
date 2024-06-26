@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import { getApiHealth } from './controller/health.js';
 import { getApiReview, postApiReview,putApiReview } from './controller/review.js';
+import { postApiEvents } from './controller/events.js';
 dotenv.config();
 
 const app = express();
@@ -30,6 +31,9 @@ app.post('/api/addReview', postApiReview);
 app.get('/api/fetchReview', getApiReview);
 
 app.put('/api/updateReview/:id', putApiReview);
+
+//add events api
+app.post('/api/events', postApiEvents);
 
 
 const PORT = process.env.PORT || 5000;
