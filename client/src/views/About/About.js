@@ -1,10 +1,19 @@
+import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
+import ReviewSlider from '../../components/ReviewSlider/ReviewSlider'
+
 import "./About.css"
 
 function About () {
 
     return(
       <>
-        <h1>About</h1>
+        <div>
+              <Navbar/>
+
+              <ReviewSlider/>
+              <Footer/>
+        </div>
       </>
 
     )
