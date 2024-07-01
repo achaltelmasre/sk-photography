@@ -4,6 +4,7 @@ import Footer from './../../components/Footer/Footer.js';
 import axios from 'axios';
 
 import "./Contact.css";
+import ReviewSlider from '../../components/ReviewSlider/ReviewSlider.js';
 
 function Contact() {
     const [name, setName] = useState("");
@@ -181,7 +182,7 @@ function Contact() {
 
                     </div>
                 </div>
-
+                 <ReviewSlider/>
                 <Footer />
 
             </div>
