@@ -1,13 +1,17 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+dotenv.config();
 import { getApiHealth } from './controller/health.js';
 import { getApiReview, postApiReview,putApiReview } from './controller/review.js';
 import { postApiEvents } from './controller/events.js';
-dotenv.config();
+import path from 'path';
+
 
 const app = express();
 app.use(express.json());
+
+const __dirname = path.resolve();
 
 const connectDB = async () => {
 
@@ -34,6 +38,15 @@ app.put('/api/updateReview/:id', putApiReview);
 
 //add events api
 app.post('/api/event', postApiEvents);
+
+
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static(path.join(__dirname, '..', 'client', 'build')));
+  
+    app.get('*', (req, res) => {
+      res.sendFile(path.join(__dirname, '..', 'client', 'build', 'index.html'))
+    });
+  }
 
 
 const PORT = process.env.PORT || 5000;
