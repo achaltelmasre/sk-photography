@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Home from './views/Home/Home';
 import Review from './views/Review/Review';
 import Contact from './views/Contact/Contact';
-import About from './views/About/About';
+// import About from './views/About/About';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path:"/about",
-    element: <About />
+    // element: <About />
   },
   {
     path:"/contact",
