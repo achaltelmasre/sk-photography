@@ -10,7 +10,7 @@ const Footer = () =>
   return (
     <>
 
- <footer class="  text-lg-s bg-dark text-light text-center foot ">
+ <footer class="  text-lg-s  text-center foot1 ">
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     
     <div class="  top-text">

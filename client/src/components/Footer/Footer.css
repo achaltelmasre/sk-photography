@@ -4,6 +4,10 @@ a{
 a:hover{
     color: red;
 }
+.foot1{
+    background-color:#e5e7e9;
+    font-size: 20px;
+}
 
 @media only screen and (max-width: 600px) {
 
