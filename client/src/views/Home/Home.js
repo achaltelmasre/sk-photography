@@ -21,7 +21,7 @@ function Home() {
             <div className="head-div ">
               <h1 className="mb-3 welcome-name">Welcome....</h1>
               <h1 className="display-4 head-name">SK PHOTOGRAPHY</h1>
-              <p className=" fs-5 home-text2 ">
+              <p className="  home-text1 ">
                 I take photographs with creativity, concept and passion.
               </p>
               <p className="text-dark home-text2">

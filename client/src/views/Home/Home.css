@@ -11,8 +11,8 @@ body{
 
 .head-div{
     position: absolute;
-    right: 150px;
-    top: 100px;
+    right: 160px;
+    top: 170px;
    height: 200px;
     width: 560px;
 }
@@ -28,6 +28,12 @@ body{
     border-radius: 50px;
     cursor: pointer !important;
     text-decoration: none;
+}
+.home-text1{
+    font-size: 25px;
+}
+.home-text2{
+    font-size: 20px;
 }
 
 .booking{
@@ -74,7 +80,7 @@ hr{
         text-align: center;
     }
     .home-text1{
-        font-size: 14px;
+        font-size: 15px;
     }
     .home-text2{
        font-size: 13px;

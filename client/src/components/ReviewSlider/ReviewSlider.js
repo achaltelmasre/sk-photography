@@ -29,7 +29,10 @@ function ReviewSlider() {
   }, []);
 
   return (
+
     <div>
+      <hr className='ms-5 me-5'/>
+      <br/>
       <div className='review-slider '>
         <h3 className='p-3'>Clients Reviews </h3>
         <div className='review'>

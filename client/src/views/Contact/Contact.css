@@ -71,6 +71,9 @@ outline: none;
     display: flex;
     flex-direction: row;
 }
+input{
+    background-color: whitesmoke;
+}
 
 
 

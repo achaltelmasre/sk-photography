@@ -4,7 +4,7 @@
     color: rgb(55, 53, 53);
 }
 .col1{
-    background-color: white;
+    /* background-color: white; */
     opacity: 0.7;
     box-shadow: 0 0 10px 5px rgb(232, 136, 136);
     /* border-radius: 10px; */
