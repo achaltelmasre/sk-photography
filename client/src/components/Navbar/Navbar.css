@@ -7,10 +7,10 @@
     position: sticky;
     /* z-index: 50; */
     width: 100%;
-     padding: 10px ; 
+     padding: 5px ; 
      background-color:#212529 ;
     color: white  !important;
-    font-size: 28px !important;
+    font-size: 26px !important;
   
 }
 .hover:hover{
@@ -29,10 +29,10 @@
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
      font-weight: bold;
-     font-size: 35px;
+     font-size: 30px;
  }
  .logo{
-    height: 70px;
+    height: 60px;
  }
 /* .back-remo{
     margin-left: 300px;
@@ -42,13 +42,13 @@
 
 @media only screen and (max-width: 600px) {
     .nav1{
-        font-size: 20px !important;
+        font-size: 18px !important;
     }
     .logo{
-        height: 50px;
+        height: 45px;
     }
  .text-red{
-    font-size: 25px;
+    font-size: 23px;
  }
     .hover:hover{
         border-bottom: 3px solid red !important;
