@@ -1,9 +1,9 @@
 .review-page{
-    background-image: url(./img/bg.jpg);
+    /* background-image: url(./img/bg.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
 
-    color: white;
+    color: rgb(96, 94, 94);
     position: relative;
 }
 .review-card{
@@ -36,18 +36,18 @@
 
 .addreview-btn{
  position: absolute;
- right: 20px;
+ right: 50px;
  top: 100px;
  font-size: 25px;
  align-items: center;
- color: yellow;
+ color: rgb(245, 164, 26);
 
 }
 .review-text{
     position: absolute;
-   right: 50px;
+   right: 70px;
    bottom: 20px;
-   color: white;
+   color: rgb(144, 141, 141);
    font-size: 23px;
    text-align: center;
    font-style:italic;
