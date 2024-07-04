@@ -62,16 +62,16 @@ function Contact() {
                 <div className='contact-container text-center font1'>
                     <h2 className='contact-name'>Contact Us</h2>
                     <h4 className='font'>Bhandara , 441904 </h4>
-                    <p>Check out our location</p>
-                    <hr />
+                    <p className='border-bottom border-dark pb-3'>bheck out our location</p>
+                   
                     <h4 className='font'>+91-95886-98095</h4>
-                    <p>Questions? Call Us</p>
-                    <hr />
+                    <p className='border-bottom border-dark pb-3'>Questions? Call Us</p>
+                   
                     <h4 className='font'>shubhamkhamle@gmail.com</h4>
-                    <p>Contact by email</p>
-                    <hr />
+                    <p className='border-bottom border-dark pb-3'>Contact by email</p>
+                  
                     <h4 className='font'>Mon to Sun - 11:00 to 9:00</h4>
-                    <p>Our common business hours</p>
+                    <p className='border-bottom border-dark pb-3'>Our common business hours</p>
                     <br />
                     <i className="bi bi-facebook icon"></i>
                     <i className="bi bi-whatsapp icon"></i>
