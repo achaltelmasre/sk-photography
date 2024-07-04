@@ -1,13 +1,28 @@
 
-.booking-text{
+.booking-text2{
     font-size: 20px;
     color: rgb(55, 53, 53);
 }
 .col1{
     /* background-color: white; */
+    width: 350px;
     opacity: 0.7;
-    box-shadow: 0 0 10px 5px rgb(232, 136, 136);
+    box-shadow: 0 0 10px 5px rgb(153, 151, 151);
     /* border-radius: 10px; */
+    -webkit-transition-property: all; 
+-webkit-transition-duration: 0.5s; 
+-webkit-transition-timing-function: ease; 
+}
+.col1:hover{
+    transform: scale(1.1); 
+  box-shadow: 0 0 20px 1px rgb(18, 18, 24);
+}
+
+.booking-text{
+    font-size: 10px;
+}
+.booking-text:hover{
+    font-size: 11px;
 }
 
 @media only screen and (max-width: 600px) {

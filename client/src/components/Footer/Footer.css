@@ -6,11 +6,13 @@ a:hover{
 }
 .foot1{
     background-color:#e5e7e9;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 @media only screen and (max-width: 600px) {
 
-
+.icons{
+    padding: 5px;
+}
 
 }

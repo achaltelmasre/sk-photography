@@ -31,10 +31,11 @@ function ReviewSlider() {
   return (
 
     <div>
+      <br/><br/>
       <hr className='ms-5 me-5'/>
       <br/>
       <div className='review-slider '>
-        <h3 className='p-3'>Clients Reviews </h3>
+        <h4 className='p-3'>Clients Reviews </h4>
         <div className='review'>
           <Carousel>
             {reviews.map((review, index) => {
@@ -42,7 +43,7 @@ function ReviewSlider() {
               return (
                 <Carousel.Item key={index}>
                   <div className='reviewSlider-content'>
-                    <h1 className=' pe-2 text-danger'>{name} </h1>
+                    <h2 className=' pe-2 text-danger'>{name} </h2>
                     <p className='sliderreview-text'>{reviews}</p>
                     <h2 className='star'>{CATEGORY_EMOJI_MAP[text]}</h2>
                   </div>

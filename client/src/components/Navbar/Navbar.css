@@ -10,7 +10,7 @@
      padding: 5px ; 
      background-color:#e5e7e9 ;
     color: rgb(82, 79, 79)  !important;
-    font-size: 26px !important;
+    font-size: 21px !important;
   
 }
 .hover:hover{
@@ -29,10 +29,10 @@
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
      font-weight: bold;
-     font-size: 30px;
+     font-size: 25px;
  }
  .logo{
-    height: 60px;
+    height: 45px;
  }
 /* .back-remo{
     margin-left: 300px;
