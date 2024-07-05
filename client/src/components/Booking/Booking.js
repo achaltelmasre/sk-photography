@@ -15,7 +15,7 @@ function Booking() {
             <Link to="/contact"><button type="button"  class=" btn btn-danger m-2">Click Here 👇</button></Link>
             </p>
           <div class="col-md-4 ">
-            <div className="p-3 m-3 border col1">
+            <div className=" m-3 border col1">
               <h5 className="text-center p-2 ">Platinum Wedding Package</h5>
              
               <ul className="booking-text">
@@ -35,7 +35,7 @@ function Booking() {
           </div>
 
           <div class="col-md-4">
-            <div className="p-3 m-3 border col1">
+            <div className=" m-3 border col1">
               <h5 className="text-center p-2 ">Gold Corporate Package</h5>
             
               <ul className="booking-text">
@@ -55,7 +55,7 @@ function Booking() {
           </div>
 
           <div class="col-md-4">
-            <div className="p-3 m-3 border col1">
+            <div className=" m-3 border col1">
               <h5 className="text-center p-2">Silver Family Package</h5>
            
               <ul className="booking-text">
