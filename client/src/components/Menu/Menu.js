@@ -15,7 +15,7 @@ const Menu  = () => {
     return (
         <>
          <div >
-            <h1 className="text-center p-3"> PHOTO GALLERY</h1>
+            <h3 className="text-center p-3"> Known About My Work</h3>
             <div className="menu-div">
             <a href="#"><img src={wedding} className=" menu-img" alt="img1" /><h5>Wedding</h5></a>
             <a href="#"><img src={engeage} className="menu-img" alt="img2" /><h5>Engagement</h5></a>
