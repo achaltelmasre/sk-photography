@@ -10,6 +10,10 @@ function About () {
     return(
       <>
         <div>
+         
+     
+
+
               <Navbar/>
               <Manu/>
               <ReviewSlider/>
