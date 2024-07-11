@@ -1,0 +1,22 @@
+
+.about-text1{
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px black solid;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-text2{
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px black solid;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-font{
+    font-size: 15px;
+    margin: 0 100px !important;
+    padding: 10px;
+}
