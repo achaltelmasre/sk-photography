@@ -28,7 +28,7 @@ function About () {
     </div>
     <div class="col-md-6">
       
-     <h4 className='about-text2'>PRINCIPLES OF OUR WORk </h4>
+     <h4 className='about-text2'>PRINCIPLES OF OUR WORK </h4>
 
      <p className='about-font  border-bottom border-dark '><i class="bi bi-record"></i> Honesty and Trust</p>
 

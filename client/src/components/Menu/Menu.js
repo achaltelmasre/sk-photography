@@ -14,9 +14,11 @@ const Menu  = () => {
 
     return (
         <>
+        <br/><br/>
+        <hr className="ms-5 me-5"/>
          <div >
                                
-           <h3 className="text-center p-3"> Known About My Work</h3>
+           <h4 className="text-center p-3 about-text2"> ABOUT MY  WORK</h4>
             <div className="menu-div">
             <a href="#"><img src={wedding} className=" menu-img" alt="img1" /><h5>Wedding</h5></a>
             <a href="#"><img src={engeage} className="menu-img" alt="img2" /><h5>Engagement</h5></a>
