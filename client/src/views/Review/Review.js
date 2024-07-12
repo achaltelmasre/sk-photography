@@ -49,7 +49,7 @@ function Review() {
   }, []);
 
   return (
-    <>
+    <>+
       <div>
         <Navbar />
         <div className='review-page'>

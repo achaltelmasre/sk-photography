@@ -23,6 +23,14 @@ function ReviewSlider() {
       console.error("Error fetching reviews:", error);
     }
   };
+  const getRandomColor = () => {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  };
 
   useEffect(() => {
     loadReview();
@@ -40,10 +48,20 @@ function ReviewSlider() {
           <Carousel>
             {reviews.map((review, index) => {
               const { name, text, reviews } = review;
+              const initialLetter = name.charAt(0);  // Get the initial letter from the name
+              const randomColor = getRandomColor();
               return (
                 <Carousel.Item key={index}>
+                  
                   <div className='reviewSlider-content'>
-                    <h2 className=' pe-2 text-danger'>{name} </h2>
+
+                  <div className='contain'>
+                  <div className='circleround' style={{ backgroundColor: randomColor }}>
+                      {initialLetter}
+                    </div>
+                    <h2 className=' pe-2 text-danger slider-name'>{name} </h2>
+                  </div>
+
                     <p className='sliderreview-text'>{reviews}</p>
                     <h2 className='star'>{CATEGORY_EMOJI_MAP[text]}</h2>
                   </div>
