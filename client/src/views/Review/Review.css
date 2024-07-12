@@ -14,11 +14,15 @@
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    opacity: 0.7;
-    /* position: relative; */
+    /* opacity: 0.7; */
+    position: relative;
   
 }
-
+.name{
+    position: absolute;
+    top: 30px;
+    left: 90px;
+}
 .review-container{
    
     height: 600px;
@@ -31,7 +35,7 @@
 .date{
     position: absolute;
     top: 25px;
-    left: 250px;
+    right: 30px;
 }
 
 .addreview-btn{
@@ -53,6 +57,19 @@
    font-style:italic;
    font-weight: bold;
 }
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
 
 
 @media only screen and (max-width: 600px) {
@@ -62,18 +79,25 @@
         font-size: 13px;
         margin-bottom: 200px;
         margin-top: -20px;
+        padding-left: 30px;
   
     }
+    
     .review-container{
-        margin-top: 80px;
-        height: 700px;
+        margin-top: 100px;
+        height: 680px;
         overflow-y: scroll;
+       
     }
     .review-card{
        
         font-size: 15px;
         width: 330px;
         padding: 7px;
+    }
+    .name{
+        top: 20px;
+        left: 70px;
     }
 
     .client-review{
