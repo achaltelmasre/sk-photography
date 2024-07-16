@@ -35,7 +35,7 @@ function Home() {
             </div>
           </div>
         </div>
-              <div className="mt-3">
+              <div className="  imgSlider">
               <ImgSlider/>
               </div>
           <div className=" ">
