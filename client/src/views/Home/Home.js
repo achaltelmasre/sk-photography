@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import Booking from "../../components/Booking/Booking";
 import "./Home.css";
 import ReviewSlider from "../../components/ReviewSlider/ReviewSlider";
+import ImgSlider from "../../components/imgSlider/imgSlider";
 // import Menu from "../../components/Menu/Menu";
 // import { Link } from "react-router-dom";
 
@@ -34,7 +35,9 @@ function Home() {
             </div>
           </div>
         </div>
-
+              <div className="mt-3">
+              <ImgSlider/>
+              </div>
           <div className=" ">
             <Booking/>
           </div>
