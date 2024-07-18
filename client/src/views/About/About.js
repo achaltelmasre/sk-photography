@@ -2,10 +2,12 @@ import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import ReviewSlider from '../../components/ReviewSlider/ReviewSlider'
 import Manu from '../../components/Menu/Menu'
+import ImgSlider from '../../components/imgSlider/imgSlider'
+
 
 import "./About.css"
 
-function About () {
+function About () {  
 
     return(
       <>
@@ -42,7 +44,7 @@ function About () {
     </div>
   </div>
   </div>
-              
+              <ImgSlider/>
               <Manu/>
               <ReviewSlider/>
               <Footer/>
